@@ -1,0 +1,53 @@
+.start{
+/* fw-bold fs-1 m-4 bg-light text-dark rounded p-2 */
+font-weight: bold;
+font-size: 3rem;
+margin:4;
+background-color: aliceblue;
+color: dark;
+border-radius: 10px;
+padding: 12px;
+text-align: center;
+}
+
+.difficulty{
+/* fw-bold fs-1 m-4 bg-light text-dark rounded p-2 */
+font-weight: bold;
+  font-size: 3rem;
+  margin: 4;
+  background-color: aliceblue;
+  color: dark;
+  border-radius: 10px;
+  padding: 12px;
+  margin-left: 10px;
+}
+
+.start:hover{
+background-color: #EAFDDB;  
+}
+
+li{
+list-style-type: none;  
+font-weight: 600;
+text-shadow: 0.5px 2px 5px 0px;
+cursor: pointer;
+font-family: fantasy;
+font-size: 1.5rem;
+background-color: #F5F5F5;
+margin: 10px 0;
+border-radius: 10px;
+  padding: 5px 10px;
+}
+li:nth-child(1){
+background-color: #00FF1E;  
+}
+li:nth-child(2) {
+  background-color: yellow
+}
+li:nth-child(3) {
+  background-color: red
+}
+li:hover{
+transform: scale(.5,1);  
+}
+
